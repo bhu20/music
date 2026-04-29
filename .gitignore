@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env/
+data/chorales/instances/
+data/chorales/chorale_instances.jsonl
+data/synthetic/synthetic_instances.jsonl

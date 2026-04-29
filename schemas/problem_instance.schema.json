@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/problem_instance.schema.json",
+  "title": "VoiceLeadingProblemInstance",
+  "type": "object",
+  "required": [
+    "problem_id",
+    "voices",
+    "chord_roots",
+    "chord_durations",
+    "constraints"
+  ],
+  "properties": {
+    "problem_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "voices": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "chord_roots": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "chord_durations": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "minItems": 1
+    },
+    "starting_pitches": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "required": [
+        "max_melodic_step",
+        "forbidden_parallels"
+      ],
+      "properties": {
+        "max_melodic_step": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "forbidden_parallels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "max_k": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_k1": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_k2": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_k3": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "allOf": [
+    {
+      "properties": {
+        "chord_roots": {
+          "minItems": 1
+        },
+        "chord_durations": {
+          "minItems": 1
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}
