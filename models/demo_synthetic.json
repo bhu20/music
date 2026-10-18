@@ -1,0 +1,9 @@
+{
+  "source": "synthetic",
+  "examples": 2600,
+  "epochs": 5,
+  "seed": 19,
+  "validation_nll": 2.193674325942993,
+  "seconds": 0.45,
+  "warning": "Synthetic model demonstrates architecture only; not validated artistic confidence."
+}

@@ -1,1 +1,9 @@
-music21>=9.1
+streamlit>=1.37,<2
+numpy>=1.26
+pandas>=2.1
+plotly>=5.20
+pretty_midi>=0.2.10
+torch>=2.2
+pytest>=7.4
+mido>=1.2
+matplotlib>=3.7

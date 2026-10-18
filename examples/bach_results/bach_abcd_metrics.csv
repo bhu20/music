@@ -1,0 +1,13 @@
+Chorale,System,Events (count),Voices (count),Parallel fifths (count),Parallel octaves (count),Leaps above dataset threshold (count),Mean total movement (semitones/event),Anchor match (soprano pitch-class %),Distinct soprano pitches (count),Max observed voice rank displacement,Runtime (seconds),Final objective (a.u.)
+chorale_riemenschneider_001,A,80,8,0,0,0,4.19,56.25,6,1,0.256,328.935
+chorale_riemenschneider_001,B,80,8,0,0,7,4.494,62.5,7,1,0.298,316.199
+chorale_riemenschneider_001,C,80,8,0,0,15,4.848,67.5,8,1,0.244,299.471
+chorale_riemenschneider_001,D,80,8,0,0,25,5.38,67.5,8,1,0.263,286.166
+chorale_riemenschneider_002,A,79,8,0,0,0,3.808,48.1,9,2,0.262,361.812
+chorale_riemenschneider_002,B,79,8,0,0,15,4.936,63.29,9,2,0.291,343.068
+chorale_riemenschneider_002,C,79,8,0,0,24,5.038,68.35,9,2,0.262,316.816
+chorale_riemenschneider_002,D,79,8,0,0,36,5.654,70.89,9,2,0.263,288.955
+chorale_riemenschneider_003,A,64,8,0,0,0,4.413,48.44,9,2,0.22,290.43
+chorale_riemenschneider_003,B,64,8,0,0,9,4.857,62.5,8,2,0.258,267.746
+chorale_riemenschneider_003,C,64,8,0,0,13,5.016,64.06,8,2,0.197,252.673
+chorale_riemenschneider_003,D,64,8,0,0,15,5.365,64.06,8,2,0.195,245.37

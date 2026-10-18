@@ -1,0 +1,27 @@
+{
+  "progression": "C G Am F G C",
+  "model_sha256": "6968af55e8215b21ac69a0e816beb1f6819ae110225d3cf7a5850d1ca9e855bd",
+  "model_provenance": "synthetic demonstration only",
+  "config": {
+    "cap": 55,
+    "meter": 4,
+    "events_per_bar": 2,
+    "max_leap": 6,
+    "max_sa": 12,
+    "max_at": 12,
+    "max_tb": 19,
+    "root_bass": false,
+    "seed": 5,
+    "pf_weight": 3.8,
+    "po_weight": 5.0,
+    "leap_weight": 3.0,
+    "model_weight": 1.8,
+    "movement_weight": 0.025,
+    "repetition_weight": 0.32,
+    "contour_weight": 2.2,
+    "min_relaxation": 0.13,
+    "melodic_target": "climax",
+    "entropy_exponent": 4.0
+  },
+  "note": "Results depend on truncated candidate lattice; do not infer musical quality from violation counts."
+}
